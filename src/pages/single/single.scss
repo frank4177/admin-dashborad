@@ -1,0 +1,88 @@
+.single {
+  display: flex;
+  width: 100%;
+  .single-container {
+    flex: 6;
+
+    .top {
+      padding: 20px;
+      display: flex;
+      gap: 20px;
+
+      .left {
+        flex: 1;
+        padding: 20px;
+        box-shadow: 2px 4px 5px -3px rgba(59, 52, 52, 0.74);
+        -webkit-box-shadow: 2px 4px 5px -3px rgba(59, 52, 52, 0.74);
+        -moz-box-shadow: 2px 4px 5px -3px rgba(59, 52, 52, 0.74);
+        position: relative;
+
+        .title {
+          font-size: 16px;
+          color: lightgrey;
+          margin-bottom: 20px;
+        }
+
+        .editButton {
+          position: absolute;
+          top: 0;
+          right: 0;
+          padding: 5px;
+          font-size: 12px;
+          color: navy;
+          border: 0.5px solid lightgray;
+          cursor: pointer;
+          border-bottom-left-radius: 5px;
+        }
+      }
+
+      .right {
+        flex: 2;
+
+        
+      }
+
+      .item {
+        display: flex;
+        gap: 20px;
+
+        .itemImg {
+          width: 100px;
+          height: 100px;
+          border-radius: 50%;
+        }
+
+        .details {
+          .itemTitle {
+            margin-bottom: 10px;
+          }
+
+          .detailItem {
+            margin-bottom: 10px;
+            font-size: 14px;
+
+            .itemkey {
+              font-weight: bold;
+              color: gray;
+              margin-right: 5px;
+            }
+
+            .itemValue {
+              font-weight: 300;
+            }
+          }
+        }
+      }
+    }
+
+    .bottom {
+      padding: 20px;
+      color: lightgray;
+      margin-bottom: 20px;
+      box-shadow: 2px 4px 5px -3px rgba(59, 52, 52, 0.74);
+      -webkit-box-shadow: 2px 4px 5px -3px rgba(59, 52, 52, 0.74);
+      -moz-box-shadow: 2px 4px 5px -3px rgba(59, 52, 52, 0.74);
+      margin: 10px 20px;
+    }
+  }
+}

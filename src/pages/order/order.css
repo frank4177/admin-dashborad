@@ -1,0 +1,18 @@
+.order{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.order .notice{
+font-size: 50px;
+color: gray;
+margin-bottom: 30px;
+margin-top: 30px;
+}
+
+.order img{
+    max-width: 600px;
+    padding: 10px;
+}
